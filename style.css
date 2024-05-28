@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #b58cb3;
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #b58cb3;
+    padding: 16vh;
+}
+.notes_heading{
+    font-size: 3vw;
+    color: white;
+}
+.note_img{
+    width: 8vh;
+    height: 10vh;
+    position: relative;
+    top: 1vh;
+}
+.createBtn{
+    width: 13vw;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    font-size: 2.5vh;
+    border: none;
+    border-radius: 3vh;
+    background-color: blueviolet;
+    margin-top: 5vh;
+}
+.createBtn:hover{
+    cursor: pointer;
+}
+.edit_img{
+    width: 3vh;
+    height: 3vh;
+    position: relative;
+    left: -2.5vh;
+    top: 0.3vh;
+}
+.input_box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.input_box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.input_box img:hover{
+    cursor: pointer;
+}
